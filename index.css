@@ -38,6 +38,9 @@ header{
    
 
 }
+.col1{
+    background:linear-gradient(170deg, #e25e2f,#cc445e);
+}
 .li li a{
     padding: 4px 12px;
     margin: 2px 4px;
@@ -92,6 +95,10 @@ a::after{
     border-radius: 6px;
 
 }
+.bg_10{
+    background:linear-gradient(rgb(99, 162, 239),rgb(25, 69, 243))
+    
+}
 .show header{
     position: absolute;
     top: 0;
@@ -113,7 +120,7 @@ a::after{
     height: 85%;
 }
 .text h3{
-    font-size: 1.3em;
+    font-size: 1.6em;
     
 }
 .text h2{
@@ -225,7 +232,7 @@ flex-direction: column;
 .function_2{
    
     width: 100%;
-    height: 400px;
+    height: 380px;
     
     background-image: url('./image/machine.jpg');
     background-size: 100% 100%;
@@ -235,6 +242,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 #shadow{
     
@@ -245,18 +253,217 @@ flex-direction: column;
     justify-content: space-around;
    
     margin-top:70px;
+    height: 320px;
+    
    
 }
 .box{
     
     height: 180px;
-    width: 30%;
+    width: 28%;
     background-color: white;
     border-radius: 23px;
-    color: orangered;
+    color: black;
+    padding: 10px 10px;
+    
 
 
 }
+.box_pad{
+   padding:5px 20px;
+    
+}
+.borderbottom{
+    border-bottom:2px solid orangered;
+    color: orangered;
+    font-size: 2em;
+}
+.fnt{
+    font-size: 20px;
+}
+.fnt1{
+    font-size: 15px;
+    color: rgb(113, 129, 168);
+}
+.gg{
+    text-align: left;
+
+}
+.HIW{
+
+    
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-top: 80px;
+    
+}
+.width1{
+    width: 90%;
+    margin:10px auto;
+}
+.boxex_container{
+    display: flex;
+    flex-direction: column;
+}
+.boxex3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxex3a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxex_3{
+    width: 28%;
+    height: 150px;
+    
+    margin-top: 33px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f4f7;
+}
+.boxex_head{
+    color: rgb(255, 69, 0);
+    font-size: 21px;
+    font-weight: 500;
+
+}
+.boxex_para{
+    font-size: 13px;
+    color: rgb(71, 87, 112);
+}
+.eco_heading{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    
+    color: white;
+}
+
+.conti{
+   
+    height: 900px;
+    
+}
+.pad-2{
+    margin-top: 20px;
+    padding: 60px 128px;
+    font-size: 25px;
+    
+}
+.width3{
+    width: 90%;
+    margin:auto;
+}
+.metalimg{
+    width: 100%;
+    
+
+    text-align: center;
+
+}
+.ftr{
+    width: 100%;
+   
+
+}
+.ftr_main{
+    display: grid;
+    grid-template-columns: 2.3fr 1fr 1fr 2.7fr;
+}
+.mt{
+    margin-top: -59px;
+}
+.bd{
+    
+}
+.col2{
+    background:linear-gradient(black,rgb(51, 49, 49));
+    margin-top: 120px;
+}
+.cl1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 50px 40px;
+    color: white;
+}
+
+.mar{
+    margin-bottom: 10px;
+}
+.cl3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 50px 20px;
+    color:white;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.shedbox{
+   
+    padding: 10px;
+    width: 65%;
+    height: 250px;
+
+    margin-left: 20px;
+    background:linear-gradient(#e25e2f,#cc445e);
+    border-radius: 29px;
+}
+.special_box{
+    color: white;
+}
+.btn4{
+    border: none;
+    background-color: white;
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+.chatbox{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
+.to_chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 250px;
+
+
+}
+.icon img{
+    filter: invert(100);
+    
+}
+.chat{
+    border: 2px solid white;
+    padding: 10px 17px;
+    width: 140px;
+    color: rgb(19, 6, 6);
+    background-color: whitesmoke;
+    border-radius: 23px;
+}
+.icon{
+    border-radius: 50%;
+    padding: 8px 10px 0px 10px;
+ 
+    
+}
+
 
 
 
